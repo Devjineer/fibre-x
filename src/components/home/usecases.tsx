@@ -8,24 +8,20 @@ import {
   Users,
 } from "lucide-react";
 
-// import veronica from "@/assets/veronica.jpg.asset.json";
-// import router from "@/assets/router.jpg.asset.json";
-import family from "@/assets/family.jpg.asset.json";
-import gaming from "@/assets/gaming.jpg.asset.json";
-import remote from "@/assets/remote.jpg.asset.json";
-import smarttv from "@/assets/smarttv.jpg.asset.json";
-import install from "@/assets/install.jpg.asset.json";
-import office from "@/assets/office.jpg.asset.json";
-// import happy from "@/assets/happy.jpg.asset.json";
-// import fatbox from "@/assets/fatbox.jpg.asset.json";
+import family from "@/assets/family.jpg";
+import gaming from "@/assets/gaming.jpg";
+import remote from "@/assets/remote.jpg";
+import smarttv from "@/assets/smarttv.jpg";
+import install from "@/assets/install.jpg";
+import office from "@/assets/office.jpg";
 
 const useCases = [
-  { icon: HomeIcon, label: "Homes & Families", img: family.url },
-  { icon: Gamepad2, label: "Gamers & Streamers", img: gaming.url },
-  { icon: Briefcase, label: "Remote Workers", img: remote.url },
-  { icon: Tv, label: "Smart TV & 4K", img: smarttv.url },
-  { icon: Camera, label: "CCTV & Security", img: install.url },
-  { icon: Building2, label: "Offices & SMEs", img: office.url },
+  { icon: HomeIcon, label: "Homes & Families", img: family },
+  { icon: Gamepad2, label: "Gamers & Streamers", img: gaming },
+  { icon: Briefcase, label: "Remote Workers", img: remote },
+  { icon: Tv, label: "Smart TV & 4K", img: smarttv },
+  { icon: Camera, label: "CCTV & Security", img: install },
+  { icon: Building2, label: "Offices & SMEs", img: office },
 ];
 
 export function UseCases() {
